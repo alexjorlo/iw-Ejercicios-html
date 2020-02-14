@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mi tercer ejercicio html</title>
+</head>
+<body>
+<form action="server.php" method="post">
+  <fieldset>
+    <legend>Datos del usuario</legend>
+  <br>
+  Nombre:<input type="text"> <br>
+   Eres socio?<br>
+    <label for="Si">Si</label>
+ <input type="radio" name="SOCIO" id="Eres socio" value="si">
+       <label for="No">No</label>
+ <input type="radio" name="SOCIO" id="Eres socio" value="no"><br>
+    Email:<input type="email"> <br>
+     Contraseña:<input type="password"><br></fieldset>
+  <fieldset>
+    <legend>Datos de la reserva</legend>
+    Edad
+          <select id="Edad" name="Edad"> 
+            <optgroup label="Edad">
+ <option>18</option>
+ <option>Entre 18 y 65</option>
+ <option>Más de 65</option>
+ </optgroup>
+    </select><br>
+    Selecciona la hora y la fecha de reserva
+    <br>
+    <input type="date">
+    <input type="time"><br>
+    <textarea name="textarea" rows="10" cols="50">Comentarios</textarea><br>
+    <input type="checkbox">Acepto las condiciones <br>
+    <input type="submit"> 
+</form>
+  </body>
+  </html>
