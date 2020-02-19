@@ -1,0 +1,21 @@
+body{
+font-size:20px;
+line-height:15px
+text-align:center;
+background-color:yellow;
+}
+a{
+font-size:22px;
+color:orange;
+font-family:helvetica;
+border:2px solid blue;
+
+}
+h1,h2,h3,h4{
+color:blue;
+border:2px solid green;
+}
+table{
+color:red;
+border:2px dotted red;
+}
