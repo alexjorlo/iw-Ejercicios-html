@@ -1,0 +1,5 @@
+n1=input("Escribe un numero entero:  ")
+X=int(n1)
+n2=input("Escribe otro numero entero:  ")
+Y=int(n2)
+print(f"La suma es {X+Y}, la resta es {X-Y}, multiplicación es {X*Y} y la division {X//Y}")

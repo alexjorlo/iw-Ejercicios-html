@@ -1,0 +1,7 @@
+frase=input("Escriba una frase: ")
+letra1=input("Escribe la letra que quieres quitar: ")
+letra2=input("Escribe por la letra que quieres remplazarla: ")
+frasenueva=frase.lower()
+contar = frasenueva.count(letra1)
+frasenueva=frasenueva.replace(letra1, letra2)
+print(f"{frasenueva} y el número de veces {contar} ")

@@ -1,0 +1,5 @@
+nombre=input("Escriba su nombre: ")
+dni=input("Escriba su DNI con letra: ")
+edad=input("Escriba su edad: ")
+int(edad)
+print(f"Su nombre es {nombre} su dni es {dni} y su edad es {edad} años")
