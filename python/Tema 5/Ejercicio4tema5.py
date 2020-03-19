@@ -1,3 +1,5 @@
+listaaprobados:{}
+listasuspendidos:{}
 x=input("Escribe la nota de Lorea: ")
 notaLorea=int(x)
 y=input("Escribe la nota de Markel: ")
@@ -21,7 +23,3 @@ estudiantes={
             
     }
 }
-
-
-for i in estudiantes:
-    print(f"Las notas son {estudiantes[i]}")
